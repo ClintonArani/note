@@ -1,0 +1,66 @@
+
+POST http://localhost/5200/users/create
+Content-Type: application/json
+
+{
+    "FirstName": "Clinton",
+    "LastName": "Omari",
+    "phone_number": "0791736576",
+    "email": "clintonarani@gmail.com",
+    "password":"Billclinton@12"
+}
+### GET ALL USERS
+GET http://localhost:5200/users/all-users 
+Content-Type: application/json
+
+### LOGIN
+POST http://localhost:5200/auth/login 
+Content-Type: application/json
+
+{
+    "email": "clintonomari420@gmail.com",
+    "password": "Billservice@12"
+}
+
+
+### GET SINGLE USER 
+
+GET http://localhost:5200/users/b704b008-dc6b-416d-8b6d-e5b65a5e96e1
+Content-Type: application/json
+
+### GET ALL UnAssigned USERS
+GET http://localhost:5200/users/unsigned-users 
+Content-Type: application/json
+
+### Assign User A Project...
+PUT http://localhost:5200/users/set-assigned
+Content-Type: application/json
+
+{
+    "user_id": "12976839-cfc6-48ad-96d3-43247c32dffa",
+    "project_id": "9b2780fc-88a9-4478-984f-e7cef5e5ca9c"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ### SWITCH ROLES
+ 
+# PUT http://localhost:5300/users/switch-role
+# Content-Type: application/json
+
+# {
+#     "user_id": "0448d051-9b0a-4b85-8022-631d9ba86178"
+# }

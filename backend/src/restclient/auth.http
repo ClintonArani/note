@@ -1,0 +1,14 @@
+
+POST http://localhost:5200/localhost:5300/auth/login
+Content-Type: application/json
+
+{
+
+}
+
+
+## check token details
+
+GET http://localhost:5200/auth/check-details
+Content-Type: application/json
+token: 

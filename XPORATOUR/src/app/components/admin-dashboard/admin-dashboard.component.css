@@ -1,0 +1,45 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px; 
+    background-color: #343a40; 
+    color: #fff; 
+    padding-top: 20px; 
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+  }
+  
+
+  
+  /* Main content styles */
+  .main-content {
+    margin-left: 199.5px; 
+    padding-top: 5px;
+    height: 90vh;
+    margin-top: -10px;
+  }
+  .topbar{
+    height: 4rem;
+    background-color: #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  .profileArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 20px;
+  }
+  .profileArea > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  

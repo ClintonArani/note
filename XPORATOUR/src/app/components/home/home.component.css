@@ -1,0 +1,176 @@
+
+
+/* Reset and basic styling */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main-content{
+   
+    display: flex;
+    z-index: 34;
+}
+.main{
+    margin-top: 4rem;
+    background-color: #fff;
+}
+.hero-content{
+    background: #F8F8FF;
+    padding-top: 6rem;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.hero-content > h1 {
+    font-size: xx-large;
+    font-family: 'elephant';
+    letter-spacing: 2px;
+    color: blue;
+}
+.hero-content > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.hero-content > .btn-primary{
+    margin-top: 3rem;
+    height: 3rem;
+    width: 12rem;
+    background-color: #ff7200;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.5;
+}
+.hero-content > .btn-primary:hover{
+    background-color: tomato;
+}
+/* *************************SERVICES*************************************** */
+.services{
+    background: #FAF0E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 1.5rem;
+    padding: 20px;
+}
+.service-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.service-item{
+    border: 1px solid #ccc;
+    width: 18rem; 
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;    
+}
+.service-item > img{
+    height: 8rem;
+    width: 18rem;  
+}
+.service-item > h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.service-item > p {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* ********************************DESTINATION SECTION************************************ */
+.destinations{
+    background: #FFFAF0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem ;
+    align-items: center;
+    justify-content: center;
+}
+.destinations > h2 {
+    margin-top: 3rem;
+}
+.destination-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.destination-item{
+    border: 1px solid #ccc;
+    width: 18rem;
+    height: 12rem;
+}
+.destination-item > img{
+    height: 10rem;
+    width: 18rem;
+}
+.destination-item > h3 {
+    text-align: center;
+}
+/* ***********************FOOTER AREA*************************** */
+.footer{
+    background-color: #333333;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    gap: 100px;
+       
+}
+.footer-logo{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    color: #F8F8FF;
+}
+.footer-links{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-links > ul > li{
+    list-style: none;
+}
+.footer-links > ul > li > a{
+    text-decoration: none;
+    font-size: large;
+    font:  sans-serif;
+    color: #F8F8FF;
+}
+.footer-links > ul > li > a:hover{
+    text-decoration: underline;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 10px;
+}

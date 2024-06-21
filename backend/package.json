@@ -1,0 +1,38 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "This is a Project About Tours And Travel....",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "build": "tsc --watch"
+  },
+  "keywords": [
+    "Tours",
+    "&",
+    "Travel"
+  ],
+  "author": "Clinton Omari",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/lodash": "^4.17.5",
+    "@types/mssql": "^9.1.5",
+    "@types/uuid": "^9.0.8",
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mssql": "^11.0.0",
+    "uuid": "^10.0.0"
+  }
+}

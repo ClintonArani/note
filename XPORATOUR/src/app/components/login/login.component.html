@@ -1,0 +1,26 @@
+<!-- <app-navbar></app-navbar> -->
+<div class="main-content">
+    <div class="main">
+        <h1>login</h1>
+        <form #loginForm="ngForm"(ngSubmit)="navigateToDashboard()">
+            <input type="email" #email="ngModel" name="email" required email ngModel placeholder="Email">
+            <div *ngIf="email.invalid && (email.dirty || email.touched)">
+                <div *ngIf="email.hasError('required')" style="color: red;font-size: small;">
+                    Email is required
+                </div>
+                <div *ngIf="email.hasError('email')" style="color: red;font-size: small;">
+                    Email is invalid
+                </div>
+            </div>
+            <input type="password" minlength="8" #password="ngModel" ngModel name="password" id="password" placeholder="Password">
+            <div *ngIf="password.invalid && (password.touched || password.dirty)">
+                <div *ngIf="password.hasError('minlength')" style="color: red;font-size: small;">
+                    Password must be atleast 8 characters
+                </div>
+            </div>
+            <button  type="submit">Login</button>
+
+            <p routerLink="/register">Don't have an account? <span>Register</span></p>
+        </form>
+    </div>
+</div>
